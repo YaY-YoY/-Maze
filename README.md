@@ -17,9 +17,12 @@ The project emphasizes real-time interaction, game logic design, and modular fun
 - Real-time console rendering
 
 ### Event System
-- '?' : Optional challenge
-- '!' : Forced mini-game
-- '*' : Special challenge (Sudoku)
+|     Symbol     |             Description            |
+|----------------|------------------------------------|
+|        ?       |         Optional challenge         |
+|        !       |          Forced mini-game          |
+|        *       |     Special challenge (Sudoku)     |
+
 
 ## Mini Games
 
@@ -98,7 +101,7 @@ This project is implemented in a single source file, but follows a modular desig
 Different systems (maze, event handling, mini-games) are separated into functions for clarity and maintainability.
 
 ## Author
-Yang, Yi-An
+Yi-An, Yang
 
 ## Acknowledgements
 - Console utility functions (`utilwin32.h`) are adapted from publicly available Windows API examples.
